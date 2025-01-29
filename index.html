@@ -5,16 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Film Reccomendations</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
         <a href="#"  class="navbar-logo">Films</a>
 
-        <div class="navbar-nav">
-            <a href="#">Home</a>
-            <a href="#films">Films</a>
-            <a href="#kelompok">Kelompok Kami</a>
-        </div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#films">Films</a></li>
+            <li><a href="#kelompok">Kelompok Kami</a></li>
+        </ul>
 
     </nav>
 
@@ -22,10 +25,92 @@
         <main class="content">
             <h1>Rekomendasi Film</h1>
             <p> Kelompok Kami</p>
-            <div class="image">
-                
+            
+        </main>
+
+        <div class="image"><img src="./images/films.webp" alt="image"></div>
+    </section>
+
+   
+    <section class="films" id="films">
+        
+        <main class="content">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,128L30,122.7C60,117,120,107,180,122.7C240,139,300,181,360,186.7C420,192,480,160,540,138.7C600,117,660,107,720,106.7C780,107,840,117,900,112C960,107,1020,85,1080,80C1140,75,1200,85,1260,106.7C1320,128,1380,160,1410,176L1440,192L1440,0L1410,0C1380,0,1320,0,1260,0C1200,0,1140,0,1080,0C1020,0,960,0,900,0C840,0,780,0,720,0C660,0,600,0,540,0C480,0,420,0,360,0C300,0,240,0,180,0C120,0,60,0,30,0L0,0Z"></path></svg>
+            <h1>Films</h1>
+        </main>
+
+        <div class="conten-about">
+            <div class="films1">
+                <Span>Hudan</Span>
+                <ul>
+                    <li>Look back</li>
+                    <li>The boy and the heron</li>
+                    <li>One piece film red </li>
+                    <li>Suzume</li>
+                    <li>Spirited away</li>
+                </ul>
             </div>
+            <div class="films2">
+                <span>Martin</span>
+                <ul>
+                    <li>Liz and the blue bird</li>
+                    <li>Maharaja</li>
+                    <li> Guardians of the galaxy</li>
+                    <li>Maquia: When the Promised Flower Bloom</li>
+                    <li>Queen of tears</li>
+                </ul>
+            </div>
+            <div class="films3">
+                <span>Tubagus</span>
+                <ul>
+                    <li>The walking dead </li>
+                    <li>Deadpool and the Wolverine</li>
+                    <li>John wick</li>
+                    <li>Your name</li>
+                    <li>A Quiet Place</li>
+                </ul>
+            </div>
+
+            <div class="films4">
+                <span>Aris</span>
+                <ul>
+                    <li>Dune</li>
+                    <li>Avengers</li>
+                    <li>Green Book</li>
+                    <li>Oppenheimer</li>
+                    <li>How to Make Millions Before Grandma Dies</li>
+                </ul>
+            </div>
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,64L40,69.3C80,75,160,85,240,117.3C320,149,400,203,480,197.3C560,192,640,128,720,117.3C800,107,880,149,960,160C1040,171,1120,149,1200,128C1280,107,1360,85,1400,74.7L1440,64L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>   
+        </div>
+        
+    </section>
+   
+    <section class="kelompok", id="kelompok">
+        <main class="content">
+          
+            <h1>Kelompok Kami</h1>
+        <div class="container">
+            <div class="avatar-container1"> 
+                <div class="avatar1"></div>
+                <p>Hudan Nendra Killen</p>
+            </div>
+            <div class="avatar-container2">
+                <div class="avatar2"></div>
+                <p>Tubagus Asyifa Rachman</p>
+            </div>
+            <div class="avatar-container3">
+                <div class="avatar3"></div>
+                <p>Muhammad Martin Forizal</p>
+            </div>
+            <div class="avatar-container4">
+                <div class="avatar4"></div>
+                <p>Achmad Rizky Dwiyanto</p>
+            </div>
+        </div>
         </main>
     </section>
+
 </body>
 </html>
